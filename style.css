@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #24252a;
+}
+
+.align-h3 {
+	text-align: center;
+}
+
+.p-main {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+blockquote {
+	color: white;
+	text-align: center;
+	font-size: 13px;
+}
+
+em {
+	background-color: #264c55;
+}
+
+#register-here {
+	text-decoration: none;
+	color: #fff;
+}
+
+#register-here a:hover {
+	color: aqua;
+}
+
+#fontsizegreen {
+	color: #00f95b;
+}
+
+li,
+a,
+#button,
+.button,
+#project {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+	background: transparent;
+}
+
+#name {
+	font-size: 40px;
+}
+
+#main-header {
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background: transparent;
+}
+
+.nav_links {
+	background-color: #264c55;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 3em;
+}
+
+.nav_links ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.nav_links li {
+	display: inline-block;
+}
+
+.nav_links li a {
+	transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+	color: #0088a9;
+}
+
+#button,
+.button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+	background-color: rgba(36, 37, 42, 0.8);
+}
+
+ul,
+#interests {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.h3text {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgb(48, 76, 199);
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+#education,
+#workexperience,
+#skill,
+#interest,
+#skillstext {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: rgba(0, 136, 169, 1);
+}
+
+strong {
+	text-align: center;
+	color: rgb(102, 139, 170);
+}
+
+.stars {
+	text-align: center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.skills {
+	color: white;
+}
+
+.checked {
+	color: orange;
+}
+
+.foooter fab {
+	font-size: 30px;
+}
+
+.project-introduction {
+	font-size: 40px;
+	color: white;
+	text-align: center;
+}
+
+.project-h3 {
+	color: white;
+	font-size: 25px;
+}
+
+.image {
+	position: relative;
+	width: 600px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image1 {
+	position: relative;
+	width: 500px;
+	float: left;
+	display: block;
+}
+
+.image2 {
+	position: relative;
+	width: 500px;
+	float: right;
+	display: block;
+}
+
+#projects {
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.td-projects {
+	padding: 200px;
+}
+
+td {
+	padding: 2px;
+	color: white;
+}
+
+#programming-table {
+	margin: auto;
+}
+
+.project111 {
+	padding-left: 250px;
+	padding-right: 250px;
+}
+
+.image_img {
+	display: block;
+	width: 100%;
+}
+
+.image_overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0;
+	transition: opacity 0.25s;
+}
+
+.image_overlay:hover {
+	opacity: 1;
+}
+
+.image_overlay > * {
+	transform: translateY(20px);
+	transition: transform 0.25s;
+}
+
+.image_overlay:hover > * {
+	transform: translateY(0);
+}
+
+.project-title h3 {
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
+
+.otherproject-titles {
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
+
+.image_description {
+	font-size: 1.25em;
+	margin-top: 0.25em;
+}
+
+.project.title {
+	color: white;
+}
+
+#introduction {
+	color: white;
+	font-size: 12px;
+}
+
+#submit-text {
+	color: white;
+}
+
+#mailbox-format {
+	font-size: 14px;
+	color: #0088a9;
+}
+
+#mailbox-format:hover {
+	color: #09c1f0;
+}
+
+.p-aboutme {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.p-heading {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.contact-me {
+	padding: 30px;
+}
+
+#stealthykyller {
+	opacity: 0.2;
+	font-size: 15px;
+}
+
+#signup-form {
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+.form-text {
+	font-size: 15px;
+	color: white;
+	font-family: sans-serif;
+}
+
+#firstname,
+#password {
+	width: 250px;
+	color: white;
+}
+
+#submit {
+	color: white;
+	font-size: 15px;
+	padding: 2px;
+}
+
+#submit:hover {
+	background-color: rgb(27, 31, 31);
+}
+
+#how-to-contact {
+	font-size: 15px;
+	color: white;
+	font-family: sans-serif;
+}
+
+#date {
+	color: white;
+}
+
+.blank-space {
+	background-color: white;
+}
